@@ -19,6 +19,12 @@ public class Producto {
     
     // METODOS
 
+    public Producto(int Codigo, String Descripcion, double Precio) {
+        this.Codigo = Codigo;
+        this.Descripcion = Descripcion;
+        this.Precio = Precio;
+    }
+
     public int getCodigo() {
         return Codigo;
     }

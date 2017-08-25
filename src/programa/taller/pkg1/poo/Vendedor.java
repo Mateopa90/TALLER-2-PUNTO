@@ -16,8 +16,16 @@ public class Vendedor {
     private int ID;
     private String Nombre;
     private String Apelido;
+    private int ventas;
     
     // METODOS
+
+    public Vendedor(int ID, String Nombre, String Apelido) {
+        this.ID = ID;
+        this.Nombre = Nombre;
+        this.Apelido = Apelido;
+    }
+    
 
     public int getID() {
         return ID;
@@ -31,6 +39,10 @@ public class Vendedor {
         return Apelido;
     }
 
+    public int getVentas() {
+        return ventas;
+    }
+
     public void setID(int ID) {
         this.ID = ID;
     }
@@ -41,6 +53,10 @@ public class Vendedor {
 
     public void setApelido(String Apelido) {
         this.Apelido = Apelido;
+    }
+
+    public void setVentas(int ventas) {
+        this.ventas = ventas;
     }
     
     

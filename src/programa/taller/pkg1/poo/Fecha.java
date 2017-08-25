@@ -19,6 +19,12 @@ public class Fecha {
     
     // METODOS
 
+    public Fecha(int Dia, int Mes, int Año) {
+        this.Dia = Dia;
+        this.Mes = Mes;
+        this.Año = Año;
+    }
+
     public int getDia() {
         return Dia;
     }

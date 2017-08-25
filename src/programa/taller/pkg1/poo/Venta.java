@@ -21,6 +21,12 @@ public class Venta {
             
     // METODOS
 
+    public Venta(int Forma_Pago, int cantidad) {
+        this.Forma_Pago = Forma_Pago;
+        this.cantidad = cantidad;
+    }
+    
+
     public Producto[] getProducto() {
         return Producto;
     }
