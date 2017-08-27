@@ -73,7 +73,7 @@ public class ProgramaTaller1POO {
             P[i] = new Producto (codigo_P, descrip_P, precio_P); 
         }
         
-        System.out.println("CUENNTA CON "+No_Tiendas+" TIENDAS Y UN TOTAL DE "+No_Productos+" LOS CUALES SON ARREGLADOS POR "+No_Vendedores+" VENDEDORES.");
+        System.out.println("CUENTA CON "+No_Tiendas+" TIENDAS Y UN TOTAL DE "+No_Productos+" PRODUCTOS, LOS CUALES SON ARREGLADOS POR "+No_Vendedores+" VENDEDORES.");
         
     
     }
